@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS index</title>
+   
+</head>
+<body>
+    <h1 id="head"></h1>
+
+    <script src="index.js">
+    </script>
+
+    <script>
+    var x = 5;
+    var y = 10;
+
+    //  var sumV = x+y;
+    // console.log(x+=y);
+    
+    </script>
+    
+
+
+
+    <script>
+    // predict array
+
+    var aa = 44;
+
+    var arr = [11,22,33,44,55];
+
+
+// flagging array 
+for(i=0;i<arr.length;i++)
+{
+// if(aa==arr[i])
+    var equals = arr[i];
+    // console.log(equals);
+
+    if(aa > equals)
+    {
+        // console.log("yes");
+        var testMe = "yes";
+        break;
+    }
+    else
+    {
+        // console.log("no");
+        var testMe = "no";
+    }
+}
+
+if(testMe == "yes")
+{
+    console.log("You Won");
+}
+else if(testMe == "no")
+{
+    console.log("Loose");
+}
+
+
+    
+
+    </script>
+
+
+
+
+
+
+<script>
+
+// largest number in array
+var arr2=[11,22,33,44,55,66];
+var iAmLargest=0;
+
+for (i=0; i<=iAmLargest;i++)
+{
+    if (arr2[i]>iAmLargest) 
+    {
+        var iAmLargest=arr2[i];
+        // console.log(iAmLargest);
+    }
+}
+
+console.log(iAmLargest);
+
+
+</script>
+
+
+<script>
+// object or dictionary
+
+var testObject = {
+    'name'  : {
+        'first' : "dishant",
+        'last' : "rajput"
+    },
+    'class' : "XII - B",
+    'phone' : 8929963020,
+    'address' : "Dwarka, New Delhi"
+
+}
+
+// var x = 'name';
+// console.log(testObject.x);
+// console.log(testObject['name']);
+// console.log(testObject['name']['first']);
+
+
+// console.log(testObject);
+
+// console.log(testObject.name);
+// console.log(testObject['name']);
+
+</script>
+
+<script>
+//
+
+
+// console.log(testObject.name);
+// console.log(testObject['name']);
+
+</script>
+
+
+
+
+
+
+<script>
+// employee
+
+var employess = [
+    {
+        id : 1,
+        name : 'Dishant'
+    },
+    {
+        id : 2,
+        name : 'Rishab'
+    },
+    {
+        id : 3,
+        name : 'Pant'
+    }
+];
+
+for(i=0;i<employess.length;i++)
+{
+    // console.log(employess[i]['id']);
+    // console.log(employess[i]['name']);
+}
+
+employess.forEach(function(value)
+{
+    // console.log(value.id+" "+value.name);
+    // console.log(value.id["1"]+" "+value.name);
+    if(value.id == 1)
+    {
+        console.log(value.id);
+    }
+    
+})
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
