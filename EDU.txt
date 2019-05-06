@@ -1,0 +1,17 @@
+IDE : INTEGRATED DEVELOPMENT ENVIROMNMENT
+
+
+JS is a compiled language
+
+drawback of JS : 
+1. No oops concept. 
+2. No run time error.
+
+
+MODERN JS : No drawbacks
+
+
+
+
+
+
